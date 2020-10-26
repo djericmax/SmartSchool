@@ -1,0 +1,106 @@
+* instalar o NODE.JS
+* verificar a versão do node
+	node --version
+* verificar a versão do npm
+	npm --version
+* instalar o Postman
+________________________________________________
+* abrir a pasta de trabalho no VSCode e no terminal CMD
+
+* montar o setup do Angular e instalar
+
+npm install -g @angular/cli
+
+* Verificar a versão do Angular
+________________________________________________
+* iniciar o projeto pelo terminal.
+
+ng new NomeDoArquivo
+
+* confirmar para trabalhar com rotas (Angular routing)
+
+selecione o tipo de estilo (CSS, SCSS, ...)
+________________________________________________
+* HABILITAR O SERVIDOR DA APLICAÇÃO ANGULAR (ng serve)
+
+npm start
+
+abrir o localhost habilitado.
+________________________________________________
+* Gerar componente por terminal
+
+ng g c nomeComponente
+________________________________________________
+* Gerar componente pelo vcCode
+
+Clicar no app da aplicação com o direito,
+clicar em Generate Component
+definir o nome do componente
+tecle ENTER
+________________________________________________
+* instalar o bootstrap na aplicação
+
+npm i bootstrap
+
+* instalar o ngx-bootstrap
+
+npm install ngx-bootstrap --save
+________________________________________________
+
+usando two wai databind
+
+inserir o módulo do form
+
+FormsModule
+
+na lista de imports e
+
+importar para o app.modules.ts
+
+import { FormsModule } from '@angular/forms';
+________________________________________________
+
+Adicionar o Reactive Forms 
+
+ReactiveFormsModule
+
+na lista de imports e 
+
+importar para o app.modules.ts
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+______________________________________________
+
+* Instalar o dotnet core na aplicação do Angular
+
+dotnet new webapi -n SmartSchool-WebAPI
+
+* acessar o dir criado
+
+* rodar o servidor para aplicação API
+
+dotnet run
+
+* rodar o server sem precisar parar a aplicação para atualização (API)
+
+dotnet watch run
+
+________________________________________________
+* Executar o build do .net para compilar a api
+
+dotnet build "A:\Estudos\.NET MVC\Angular\SmartSchool-WebAPI\SmartSchool-WebAPI.csproj"
+________________________________________________
+
+* Instalar o Entity Framework Core Global nos projetos
+
+dotnet tool install --global dotnet-ef
+________________________________________________
+* Verificar a versão do EF Core
+
+dotnet-ef --version
+________________________________________________
+* Instalar o pacote NewtonsoftJson
+
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson --version 3.1.9
+________________________________________________
+
